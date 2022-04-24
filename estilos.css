@@ -1,14 +1,88 @@
 .main{
     display: flex;
     flex-direction: column;
+    text-decoration: underline;
+}
+.recuadro{
+    border: 2px solid black;
 }
 body{
     background-color: antiquewhite;
+    margin:0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+      font-size: 24px;
+    float: left;
+    padding-top: 3px;
+    padding-left: 5px;
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
 
 .nombre{
 margin-left: 20px;
+font-family: 'Dancing Script';
+font-size: 45px;
+font-weight: 700;
   }
+.info_general{
+    white-space: pre-wrap;
+    position: absolute;
+top: 43%;
+right:30%;
+font-size: 25px;
+font-family: 'Source Code Pro';
+}
+h2{
+  text-align: center;
+}
+.subtitulo{
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 20px;
+}
+ .info{
+    white-space: pre-wrap;  
+    position: relative;
+    margin-left: 200px;
+    margin-top: 75px;
+    font-size: 20px;
+    font-family: 'Catamaran';
+ }
+.negrita{
+    font-weight: 700;
+}
+.text_subrayado{
+    text-decoration: underline;
+}
+
+
 
 .foto{
   float: right;
@@ -22,14 +96,27 @@ margin-left: 20px;
     margin-left: 90px;
     width:80px;
     height: 80px;
-    margin-top: 55px;
+    margin-top: 63px;
 }
 .logos_rec{
     float:left;
-    margin-left: 30px;
+    margin-left: 20px;
     height: 50px;
-    margin-top: 55px;
+    margin-top: 57px;
+    position:relative;
 }
+.logos_rec2{
+    float:left;
+    margin-left: 40px;
+    height: 70px;
+    margin-top: 80px;
+}.logos_rec3{
+    float:left;
+    margin-left: 40px;
+    height: 90px;
+    margin-top: 80px;
+}
+
 .logos_cuad_gran{
     float:left;
     margin-left: 65px;
@@ -37,48 +124,42 @@ margin-left: 20px;
     height: 120px;
     margin-top: 120px;
 }
-
-.info_general{
-    white-space: pre-wrap;
-    position: absolute;
-top: 43%;
-right:35%;
-font-size: 30px;
-
+.logos_mov{
+    float:left;
+    margin-left: 510px;
+   margin-top: -100px;
+    height: 100px;
 }
-
-h2{
-  text-align: center;
+.logo_argprog{
+   margin-right:35px;
 }
-
 .flor{
  
     float: left;
     top: 50%;
     position: absolute;
-     margin-right: auto;
-     
+     margin-right: auto;  
 }
+.flor2{
 
-.subtitulo{
-    font-size: 28px;
-    text-decoration: underline;
-    text-align: left;
-    margin-left: 20px;
+    height: 120px;
+
+    margin-left: 250px;
+    position: absolute;
 }
-.educacion{
-    text-decoration: underline;
- }
- .info{
-    white-space: pre-wrap;  
-    position: relative;
-    margin-left: 200px;
-    margin-top: 75px;
-    font-size: 20px;
- }
-.negrita{
-    font-weight: 700;
+.iconos_hab{
+
+    margin-left: 90px;
+    height: 60px;
+    margin-top: 63px;
 }
-.text_subrayado{
-    text-decoration: underline;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+.imgFinal{
+    margin-top: 150px;
+    display: flex;
+justify-content: center;
 }
