@@ -47,6 +47,7 @@ body{
 
 .nombre{
 margin-left: 20px;
+margin-top: 80px;
 font-family: 'Dancing Script';
 font-size: 45px;
 font-weight: 700;
@@ -176,10 +177,7 @@ header{
   left:0;
   z-index: 100;
 }
-.contenedor{
-  width:98%;
-  margin:auto;
-}
+
 
 header label {
   float:right;
