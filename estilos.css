@@ -47,7 +47,7 @@ body{
 
 .nombre{
 margin-left: 20px;
-margin-top: 80px;
+margin-top: 60px;
 font-family: 'Dancing Script';
 font-size: 45px;
 font-weight: 700;
@@ -64,6 +64,7 @@ h2{
   text-align: center;
 }
 .subtitulo{
+  margin-top: 53px;
     font-size: 28px;
     text-decoration: underline;
     text-align: left;
@@ -88,6 +89,7 @@ h2{
 
 
 .foto{
+  margin-top: -180px;
   float: right;
     width: 400px;
     height: 800px;
@@ -144,11 +146,18 @@ h2{
      margin-right: auto;  
 }
 .flor2{
-
+  margin-top: 50px;
     height: 120px;
 
     margin-left: 250px;
     position: absolute;
+}
+.flor6{
+margin-top: 50px;
+  height: 100px;
+
+  margin-left: 220px;
+  position: absolute;
 }
 .iconos_hab{
 
@@ -197,9 +206,10 @@ header label {
     position: absolute;
     top:0px;
     left:0;
-    width:50%;
-    height: 50%;
-    transition: all 0.3s;
+    width:100%;
+    height: 100vh;
+    transition: all 0.5s;
+    background: rgba(51,51,51);
     transform:translateX(-100%)
   }
 .menu a{
@@ -214,6 +224,14 @@ header label {
   background:1px solid rgb(255, 255,255) ;
 }
 #menu-bar:checked ~ .menu{
-  transform:translate3d(0%);
+  transform:translateX(0%);
 }
+}
+
+.contenedor{
+  width: 100%;
+  margin:auto;
+}
+header .contenedor{
+  display: table;
 }
