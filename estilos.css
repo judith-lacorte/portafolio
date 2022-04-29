@@ -1,4 +1,6 @@
-
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -14,9 +16,6 @@ body{
     margin:0 auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  
-  
-  
   
 .nombre{
 margin-left: 20px;
@@ -59,8 +58,6 @@ h2{
     text-decoration: underline;
 }
 
-
-
 .foto{
   float:right;
     margin-top: -180px;
@@ -73,7 +70,7 @@ h2{
     align-content: flex-end;
     justify-content: flex-end;
     align-items: center;
-
+    border-radius: 55%;
 }
 .logos_cuad{
     float:left;
@@ -159,65 +156,12 @@ margin-top: 50px;
 justify-content: center;
 }
 
-
-
-
-
-
-
-section {
-  width:100px;
-  margin-bottom: 25px;
-}
-
-#banner{
-  margin-top: 50px;
-position:relative;
-}
-#banner img{
-  width:100%;
-  height:100%;
-}
-#banner .contenedor{
-  position:absolute;
-  top:50%;
-  left:50;
-  transform:translateX(-50%) translateY(-50%)
-
-}
-#banner h2 {
-  font-size: 28px;
-}
-#banner a{
-  display:block;
-  width:100px;
-  text-decoration:none;
-  padding: 10px;
-  margin-top: 10px;
-  border: 3px solid rebeccapurple;
-}
-
-#blog .contenedor{
-  display:flex;
-  justify-content: center;
-  flex-wrap: 15px;
-}
-#blog article{
-  margin:15 px;
-}
-#blog img{
-  width:100px;
-  max-width:280;
-}
-
-
-
   nav{
     background: black;
     height: 80px;
     width: 100%;
     position:fixed;
-    
+  
     
     z-index: 100;
   }
@@ -300,7 +244,4 @@ position:relative;
   #check:checked ~ ul{
     left: 0;
   }
-}
-.test{
-  padding-top: 200px;
 }
